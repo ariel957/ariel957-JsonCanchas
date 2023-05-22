@@ -11,18 +11,6 @@
       "email": "maria@example.com"
     }
   ],
-  "profesores": [
-    {
-      "id": 1,
-      "nombreApellido": "Luis Fernández",
-      "email": "luis@example.com"
-    },
-    {
-      "id": 2,
-      "nombreApellido": "Ana Martínez",
-      "email": "ana@example.com"
-    }
-  ],
   "canchas": [
     {
       "id": 1,
@@ -52,15 +40,5 @@
       "categoria": "B"
     }
   ],
-  "clienteCancha": [
-    {
-      "clienteId": 1,
-      "canchaId": 1
-    },
-    {
-      "clienteId": 2,
-      "canchaId": 2
-    }
-  ]
 }
 
