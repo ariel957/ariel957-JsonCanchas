@@ -1,0 +1,31 @@
+{
+  "canchas": [
+    {
+      "id": 1,
+      "tipo": "Césped",
+      "estado": "Disponible"
+    },
+    {
+      "id": 2,
+      "tipo": "Cemento",
+      "estado": "Ocupada"
+    },
+    {
+      "id": 3,
+      "tipo": "Polvo de ladrillo",
+      "estado": "Disponible"
+    }
+  ],
+  "profesores": [
+    {
+      "id": 1,
+      "nombreApellido": "Luis Fernández",
+      "email": "luis@example.com"
+    },
+    {
+      "id": 2,
+      "nombreApellido": "Ana Martínez",
+      "email": "ana@example.com"
+    }
+  ]
+}
