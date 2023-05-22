@@ -1,11 +1,101 @@
 {
-  "posts": [
+  "clientes": [
     {
       "id": 1,
-      "title": "hello"
+      "nombreApellido": "Juan Pérez",
+      "email": "juan@example.com",
+      "telefono": 1234567890,
+      "nivelTenis": "Alto",
+      "desafio": "Sí"
+    },
+    {
+      "id": 2,
+      "nombreApellido": "María González",
+      "email": "maria@example.com",
+      "telefono": 9876543210,
+      "nivelTenis": "Medio",
+      "desafio": "No"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "profesores": [
+    {
+      "id": 1,
+      "nombreApellido": "Luis Fernández",
+      "email": "luis@example.com",
+      "telefono": 5555555555,
+      "clienteId": 1
+    },
+    {
+      "id": 2,
+      "nombreApellido": "Ana Martínez",
+      "email": "ana@example.com",
+      "telefono": 4444444444,
+      "clienteId": 2
+    }
+  ],
+  "canchas": [
+    {
+      "id": 1,
+      "horario": "2023-05-21T10:00:00",
+      "estado": "Disponible"
+    },
+    {
+      "id": 2,
+      "horario": "2023-05-21T11:00:00",
+      "estado": "Ocupada"
+    }
+  ],
+  "torneos": [
+    {
+      "id": 1,
+      "nombre": "Torneo 1",
+      "categoria": "A"
+    },
+    {
+      "id": 2,
+      "nombre": "Torneo 2",
+      "categoria": "B"
+    }
+  ],
+  "clienteCancha": [
+    {
+      "clienteId": 1,
+      "canchaId": 1
+    },
+    {
+      "clienteId": 2,
+      "canchaId": 2
+    }
+  ],
+  "profesorCancha": [
+    {
+      "profesorId": 1,
+      "canchaId": 1
+    },
+    {
+      "profesorId": 2,
+      "canchaId": 2
+    }
+  ],
+  "canchaTorneo": [
+    {
+      "canchaId": 1,
+      "torneoId": 1
+    },
+    {
+      "canchaId": 2,
+      "torneoId": 2
+    }
+  ],
+  "clienteTorneo": [
+    {
+      "clienteId": 1,
+      "torneoId": 1
+    },
+    {
+      "clienteId": 2,
+      "torneoId": 2
+    }
+  ]
 }
+
