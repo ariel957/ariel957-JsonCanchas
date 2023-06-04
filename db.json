@@ -16,7 +16,7 @@
       "estado": "Disponible"
     }
   ],
-  "profesores": [
+  "users": [
     {
       "id": 1,
       "nombreApellido": "Luis Fernández",
